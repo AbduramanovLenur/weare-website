@@ -1,0 +1,47 @@
+.header {
+    padding-top: 27px;
+    &__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__lang {
+        font-family: "Neue Machina";
+        font-weight: 700;
+        color: rgba(255, 255, 255, 0.3);
+        display: flex;
+        margin-left: 41px;
+        margin-right: auto;
+        &-en {
+            margin-right: 21px;
+            cursor: pointer;
+        }
+        &-ru {
+            cursor: pointer;
+        }
+    }
+    &__tel {
+        font-family: "Neue Machina";
+        font-size: 22px;
+        line-height: 1;
+        margin-right: 51px;
+        margin-left: 20px;
+    }
+    &__btn {
+        background-color: transparent;
+        border: 1px solid #fff;
+        padding: 20px 45px;
+        margin-right: 40px;
+        text-transform: uppercase;
+        border-radius: 67px;
+        transition: all .4s ease-in;
+        cursor: pointer;
+        &:hover {
+            color: #000;
+            background-color: #fff;
+        }
+    }
+}
+.active-class-lang {
+    color: #fff;
+}

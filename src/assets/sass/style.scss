@@ -5,8 +5,35 @@
 }
 body {
     font-family: "HelveticaNeueCyr";
+    // font-family: 'Neue Machina';
     font-size: 17px;
+    font-weight: 400;
     line-height: 1.41;
     color: #fff;
     background-color: #000032;
 }
+a {
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+li {
+    list-style: none;
+}
+button {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+}
+.container {
+    max-width: 1516px;
+    margin: 0 auto;
+}
+
+@import "blocks/header";
+@import "blocks/screen-1";

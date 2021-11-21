@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Document</title>
@@ -13,14 +14,59 @@
 <body>
 
     <div class="wrapper">
-        <h1>Hello</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab minus accusantium enim voluptate alias iusto
-            reiciendis, excepturi repudiandae ad libero, dolorum repellat quod pariatur, eos eaque? Neque facilis optio
-            nulla.</p>
-        <img src="assets/img/screen-2/images-1.png" alt="">
-        <img src="assets/img/screen-2/images-2.png" alt="">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a href="#" class="header__link">
+                        <img class="logo" src="assets/img/logo.png" alt="logo">
+                    </a>
+                    <div class="header__lang">
+                        <p class="header__lang-en active-class-lang">
+                            EN
+                        </p>
+                        <p class="header__lang-ru">
+                            РУ
+                        </p>
+                    </div>
+                    <a href="tel:+79281234567" class="header__tel">
+                        +7 928 123 45 67
+                    </a>
+                    <button class="header__btn">
+                        Получить консультацию
+                    </button>
+                    <img class="header__burger" src="assets/img/burger.png" alt="burger">
+                </div>
+            </div>
+        </header>
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="intro__inner">
+                        <div class="intro__box">
+                            <div class="intro__content">
+                                <h1 class="intro__title">
+                                    Разработка
+                                    <span>VR/AR</span> проектов
+                                </h1>
+                                <p class="intro__text">
+                                    Моделирование и визуализация 3D-объектов в формате виртуальной реальности
+                                </p>
+                            </div>
+                            <div class="intro__pic">
+                                <img class="intro__img" src="assets/img/screen-1/vr.png" alt="vr">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide"></div>
+                <div class="swiper-slide"></div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
     </div>
 
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 
