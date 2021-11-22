@@ -1,0 +1,33 @@
+.virtual {
+    &__inner {
+        padding: 118px 0;
+    }
+    &__title {
+        font-family: 'Neue Machina';
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 1;
+        max-width: 934px;
+    }
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content:nth-child(2) {
+        img {
+            padding-top: 60px;
+        }
+    }
+    &__subtile {
+        font-family: 'Neue Machina';
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 1.2;
+        margin-bottom: 10px;
+        max-width: 540px;
+    }
+    &__text {
+        max-width: 540px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+}

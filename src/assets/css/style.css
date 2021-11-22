@@ -36,8 +36,45 @@ button {
 }
 
 .container {
-  max-width: 1516px;
+  max-width: 1546px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.swiper {
+  max-width: 1546px;
+  width: 100%;
+  max-height: 860px;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.swiper-wrapper {
+  max-width: 1413px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.swiper-pagination-bullet {
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  opacity: 1;
+  margin-bottom: 18px !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 4px;
+  height: 38px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.swiper-pagination {
+  left: 18px;
 }
 
 .header {
@@ -93,6 +130,9 @@ button {
   color: #fff;
 }
 
+.intro__inner {
+  position: relative;
+}
 .intro__box {
   display: -ms-flexbox;
   display: flex;
@@ -100,4 +140,85 @@ button {
       justify-content: space-between;
   -ms-flex-align: center;
       align-items: center;
+  margin-bottom: 15px;
+}
+.intro__title {
+  font-family: "Neue Machina";
+  text-transform: uppercase;
+  font-size: 71px;
+  font-weight: 400;
+  margin-bottom: 35px;
+  white-space: nowrap;
+}
+.intro__title span {
+  font-weight: 700;
+}
+.intro__text {
+  font-weight: 400;
+  max-width: 478px;
+  margin-left: 50px;
+}
+.intro__subtext {
+  display: -ms-flexbox;
+  display: flex;
+}
+.intro__subtext p {
+  position: relative;
+  padding-left: 8px;
+}
+.intro__subtext p:not(:last-child) {
+  margin-right: 48px;
+}
+.intro__subtext p::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 20px;
+  width: 2px;
+  background-color: #1E4FC6;
+  -webkit-transform: skew(-8deg);
+          transform: skew(-8deg);
+}
+.intro__circle-1 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+.intro__circle-2 {
+  position: absolute;
+  top: 0;
+  left: 30%;
+}
+
+.virtual__inner {
+  padding: 118px 0;
+}
+.virtual__title {
+  font-family: "Neue Machina";
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 1;
+  max-width: 934px;
+}
+.virtual__box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.virtual__content:nth-child(2) img {
+  padding-top: 60px;
+}
+.virtual__subtile {
+  font-family: "Neue Machina";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  max-width: 540px;
+}
+.virtual__text {
+  max-width: 540px;
+  color: rgba(255, 255, 255, 0.8);
 }

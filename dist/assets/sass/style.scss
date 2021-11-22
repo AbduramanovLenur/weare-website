@@ -31,9 +31,41 @@ button {
     color: inherit;
 }
 .container {
-    max-width: 1516px;
+    max-width: 1546px;
     margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
 }
-
+.swiper {
+    max-width: 1546px;
+    width: 100%;
+    max-height: 860px;
+    height: 100%;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.swiper-wrapper {
+    max-width: 1413px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.swiper-pagination-bullet {
+    width: 4px;
+    height: 4px;
+    background-color: #fff;
+    opacity: 1;
+    margin-bottom: 18px !important;
+}
+.swiper-pagination-bullet-active {
+    width: 4px;
+    height: 38px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.swiper-pagination {
+    left: 18px
+}
 @import "blocks/header";
 @import "blocks/screen-1";
+@import "blocks/screen-2";

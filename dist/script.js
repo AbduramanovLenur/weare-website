@@ -90,10 +90,40 @@
 /*!************************!*\
   !*** ./src/js/main.js ***!
   \************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _js_modules_swiper__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../js/modules/swiper */ "./src/js/modules/swiper.js");
 
+document.addEventListener('DOMContentLoaded', function () {
+  Object(_js_modules_swiper__WEBPACK_IMPORTED_MODULE_0__["default"])();
+});
+
+/***/ }),
+
+/***/ "./src/js/modules/swiper.js":
+/*!**********************************!*\
+  !*** ./src/js/modules/swiper.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var swiperSlider = function swiperSlider() {
+  new Swiper('.swiper', {
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    direction: "vertical",
+    spaceBetween: 10
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (swiperSlider);
 
 /***/ })
 

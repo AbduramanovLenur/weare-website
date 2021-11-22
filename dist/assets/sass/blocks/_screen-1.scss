@@ -1,7 +1,59 @@
 .intro {
+    &__inner {
+        position: relative;
+    }
     &__box {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 15px;
+    }
+    &__title {
+        font-family: "Neue Machina";
+        text-transform: uppercase;
+        font-size: 71px;
+        font-weight: 400;
+        margin-bottom: 35px;
+        white-space: nowrap;
+        span {
+            font-weight: 700;
+        }
+    }
+    &__text {
+        font-weight: 400;
+        max-width: 478px;
+        margin-left: 50px;
+    }
+    &__subtext {
+        display: flex;
+        p {
+            position: relative;
+            padding-left: 8px;
+            &:not(:last-child) {
+                margin-right: 48px;
+            }
+            &::before {
+                content: '';
+                position: absolute;
+                left: 0;
+                top: 0;
+                height: 20px;
+                width: 2px;
+                background-color: #1E4FC6;
+                transform: skew(-8deg);
+            }
+        }
+    }
+    &__circle {
+        &-1 {
+            position: absolute;
+            top: 50%;
+            left: 25%;
+        }
+        &-2 {
+            position: absolute;
+            top: 0;
+            left: 30%;  
+        }
     }
 }
