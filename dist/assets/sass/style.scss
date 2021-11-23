@@ -50,6 +50,9 @@ button {
     padding-left: 15px;
     padding-right: 15px;
 }
+.swiper-slide {
+    height: 100%;
+}
 .swiper-pagination-bullet {
     width: 4px;
     height: 4px;
@@ -63,9 +66,22 @@ button {
     border-radius: 3px;
     background-color: #fff;
 }
-.swiper-pagination {
-    left: 18px
+.swiper-vertical-pagination {
+    right: 97% !important;
+}
+.swiper-vertical-button-next {
+    left: 10px;
+    top: 90%;
+    width: 12px !important;
+    height: 56px !important;
+    background-color: #fff !important;
+    opacity: 1;
+    border-radius: 6px;
+    &::after {
+        display: none;
+    }
 }
 @import "blocks/header";
 @import "blocks/screen-1";
 @import "blocks/screen-2";
+@import "blocks/screen-3";

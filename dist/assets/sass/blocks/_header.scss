@@ -26,6 +26,10 @@
         line-height: 1;
         margin-right: 51px;
         margin-left: 20px;
+        transition: all .3s ease-in;
+        &:hover {
+            opacity: .5;
+        }
     }
     &__btn {
         background-color: transparent;
