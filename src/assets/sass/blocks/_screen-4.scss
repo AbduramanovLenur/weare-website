@@ -1,0 +1,69 @@
+.design {
+    position: relative;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        margin-top: 100px;
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+    &__title {
+        font-family: 'Neue Machina';
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 1.09;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        max-width: 866px;
+    }
+    &__text {
+        font-weight: 400;
+        max-width: 538px;
+        margin-bottom: 14px;
+    }
+    &__descr {
+        font-size: 15px;
+        line-height: 1.4;
+        color: rgba(255, 255, 255, 0.7);
+        max-width: 431px;
+        margin-bottom: 30px;
+    }
+    &__button {
+        font-size: 14px;
+        line-height: 1;
+        letter-spacing: 10%;
+        text-transform: uppercase;
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        margin-right: 14px;
+        transition: all .3s ease;
+        &:hover {
+            opacity: 0.8;
+        }
+        &:hover + .design__arrow {
+            transform: translateX(15px);
+        }
+    }
+    &__arrow {
+        transition: all .3s ease;
+    }
+    &__img {
+        height: 100%;
+    }
+    &__pagination {
+        font-family: "Neue Machina";
+        font-size: 28px;
+        line-height: 1;
+        top: 40px;
+        left: 0px;
+        width: 0%;
+    }
+    &__gradient {
+        position: absolute;
+        top: -59px;
+        left: 0;
+    }
+}

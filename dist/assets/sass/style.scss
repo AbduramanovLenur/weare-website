@@ -81,7 +81,34 @@ button {
         display: none;
     }
 }
+.swiper-horizon-button-prev {
+    left: 89.2% !important;
+    top: 92% !important;
+    width: 72px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-top-left-radius: 67px;
+    border-bottom-left-radius: 67px;
+    &::after {
+        font-size: 20px;
+    }
+}
+.swiper-horizon-button-next {
+    top: 92% !important;
+    width: 72px !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    border-top-right-radius: 67px;
+    border-bottom-right-radius: 67px;
+    &::after {
+        font-size: 20px;
+    }
+}
+
 @import "blocks/header";
 @import "blocks/screen-1";
 @import "blocks/screen-2";
 @import "blocks/screen-3";
+@import "blocks/screen-4";
+@import "blocks/screen-5";

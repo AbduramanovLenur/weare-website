@@ -1,4 +1,5 @@
 .solution {
+    position: relative;
     &__inner {
         padding: 94px 0 134px;
     }
@@ -50,8 +51,22 @@
         display: inline-block;
         font-size: 14px;
         line-height: 0.9;
+        text-transform: uppercase;
+        transition: all .3s ease;
+        &:hover {
+            opacity: 0.8;
+        }
+        &:hover + .solution__arrow {
+            transform: translateX(15px);
+        }
     }
     &__arrow {
         margin-left: 20px;
+        transition: all .3s ease;
+    }
+    &__gradient {
+        position: absolute;
+        top: -85px;
+        right: 0;
     }
 }

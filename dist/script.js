@@ -1962,7 +1962,7 @@ var swiperSliderHorizon = function swiperSliderHorizon(selectorSlider, selectorB
         return "0<span class=\"".concat(currentClass, "\"></span>/0<span class=\"").concat(totalClass, "\"></span>");
       }
     },
-    spaceBetween: 10,
+    spaceBetween: 40,
     loop: true
   });
 };

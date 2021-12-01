@@ -1,0 +1,17 @@
+.partners {
+    &__inner {
+        padding: 135px 0 57px;
+    }
+    &__title {
+        font-family: 'Neue Machina';
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 1.09;
+        max-width: 830px;
+        text-transform: uppercase;
+        margin-bottom: 41px;
+    }
+    &__text {
+        max-width: 490px;
+    }
+}

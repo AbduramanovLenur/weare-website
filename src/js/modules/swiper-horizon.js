@@ -11,7 +11,7 @@ const swiperSliderHorizon = (selectorSlider, selectorBtnNext, selectorBtnPrev) =
                 return `0<span class="${currentClass}"></span>/0<span class="${totalClass}"></span>`;
             }
         },
-        spaceBetween: 10,
+        spaceBetween: 40,
         loop: true,
     });
 }
