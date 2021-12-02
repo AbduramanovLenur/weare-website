@@ -120,6 +120,10 @@ button {
   font-size: 20px;
 }
 
+.slide-horizon {
+  height: 1000px;
+}
+
 .header {
   padding-top: 27px;
 }
@@ -195,6 +199,7 @@ button {
   font-size: 71px;
   font-weight: 400;
   margin-bottom: 35px;
+  margin-left: 30px;
   white-space: nowrap;
 }
 .intro__title span {
@@ -219,7 +224,7 @@ button {
 .intro__subtext p::before {
   content: "";
   position: absolute;
-  left: 0;
+  left: -5px;
   top: 0;
   height: 20px;
   width: 2px;
@@ -429,6 +434,9 @@ button {
   left: 0;
 }
 
+.partners {
+  position: relative;
+}
 .partners__inner {
   padding: 135px 0 57px;
 }
@@ -443,4 +451,55 @@ button {
 }
 .partners__text {
   max-width: 490px;
+  opacity: 0.8;
+  margin-bottom: 84px;
+}
+.partners__info {
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 190px;
+}
+.partners__box {
+  margin-right: 48px;
+}
+.partners__subtitle {
+  font-family: "Neue Machina";
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 1.29;
+}
+.partners__subtext {
+  font-weight: 400;
+}
+.partners__partners {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+}
+.partners__text-logos {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 6%;
+  margin-right: 30px;
+}
+.partners__img:not(:last-child) {
+  margin-right: 64px;
+}
+.partners__gradient-1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.partners__gradient-2 {
+  position: absolute;
+  top: 0;
+  left: 80%;
+}
+.partners__gradient-3 {
+  position: absolute;
+  top: 40%;
+  left: 60%;
 }
