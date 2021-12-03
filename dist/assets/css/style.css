@@ -124,6 +124,15 @@ button {
   height: 1000px;
 }
 
+.certificate-horizon-pagination {
+  font-family: "Neue Machina";
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 400;
+  bottom: 30px !important;
+  left: -45% !important;
+}
+
 .header {
   padding-top: 27px;
 }
@@ -504,18 +513,49 @@ button {
   left: 60%;
 }
 
+.certificate {
+  padding-top: 102px;
+}
+.certificate__title {
+  font-family: "Neue Machina";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 0.95;
+  max-width: 800;
+  text-transform: uppercase;
+  margin-bottom: 51px;
+  text-align: center;
+}
 .certificate__content {
   display: -ms-flexbox;
   display: flex;
+  gap: 53px;
 }
-
-.popup {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
+.certificate__box {
+  padding: 21px 24px 63px;
+  border: 1px solid #46465B;
+  border-radius: 12px;
+  max-width: 378px;
   width: 100%;
-  height: 100%;
-  z-index: 9;
-  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.certificate__box:hover {
+  background-color: #5E1EC6;
+}
+.certificate__info {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  margin-bottom: 48px;
+}
+.certificate__pic {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.certificate-swiper {
+  max-height: 630px !important;
 }

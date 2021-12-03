@@ -108,6 +108,15 @@ button {
 .slide-horizon {
     height: 1000px;
 }
+.certificate-horizon-pagination {
+    font-family: 'Neue Machina';
+    font-size: 28px;
+    line-height: 1;
+    font-weight: 400;
+    bottom: 30px !important;
+    left: -45% !important;
+
+}
 
 @import "blocks/header";
 @import "blocks/screen-1";

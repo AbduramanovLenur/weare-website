@@ -1,16 +1,41 @@
 .certificate {
+    padding-top: 102px;
+    &__title {
+        font-family: "Neue Machina";
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 0.95;
+        max-width: 800;
+        text-transform: uppercase;
+        margin-bottom: 51px;
+        text-align: center;
+    }
     &__content {
         display: flex;
+        gap: 53px;
     }
-}
-
-.popup {
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9;
-    background-color: rgba(0, 0, 0, 0.5);
+    &__box {
+        padding: 21px 24px 63px;
+        border: 1px solid #46465B;
+        border-radius: 12px;
+        max-width: 378px;
+        width: 100%;
+        transition: all .3s ease;
+        cursor: pointer;
+        &:hover {
+            background-color:#5E1EC6;
+        }
+    }
+    &__info {
+        display: flex; 
+        justify-content: space-between;
+        margin-bottom: 48px;
+    }
+    &__pic {
+        display: flex;
+        justify-content: center;
+    }
+    &-swiper {
+        max-height: 630px !important;
+    }
 }
