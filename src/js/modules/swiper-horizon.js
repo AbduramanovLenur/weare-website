@@ -13,6 +13,9 @@ const swiperSliderHorizon = (selectorSlider, selectorBtnNext, selectorBtnPrev) =
         },
         spaceBetween: 40,
         loop: true,
+        // autoplay: {
+        //     delay: 5000,
+        // },
     });
 }
 

@@ -42,97 +42,6 @@ button {
   padding-right: 15px;
 }
 
-.swiper {
-  max-width: 1546px;
-  width: 100%;
-  max-height: 860px;
-  height: 100%;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.swiper-wrapper {
-  max-width: 1413px;
-  margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.swiper-slide {
-  height: 100%;
-}
-
-.swiper-pagination-bullet {
-  width: 4px;
-  height: 4px;
-  background-color: #fff;
-  opacity: 1;
-  margin-bottom: 18px !important;
-}
-
-.swiper-pagination-bullet-active {
-  width: 4px;
-  height: 38px;
-  border-radius: 3px;
-  background-color: #fff;
-}
-
-.swiper-vertical-pagination {
-  right: 97% !important;
-}
-
-.swiper-vertical-button-next {
-  left: 10px;
-  top: 90%;
-  width: 12px !important;
-  height: 56px !important;
-  background-color: #fff !important;
-  opacity: 1;
-  border-radius: 6px;
-}
-.swiper-vertical-button-next::after {
-  display: none;
-}
-
-.swiper-horizon-button-prev {
-  left: 89.2% !important;
-  top: 92% !important;
-  width: 72px !important;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  border-top-left-radius: 67px;
-  border-bottom-left-radius: 67px;
-}
-.swiper-horizon-button-prev::after {
-  font-size: 20px;
-}
-
-.swiper-horizon-button-next {
-  top: 92% !important;
-  width: 72px !important;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  border-right: 1px solid rgba(255, 255, 255, 0.1);
-  border-top-right-radius: 67px;
-  border-bottom-right-radius: 67px;
-}
-.swiper-horizon-button-next::after {
-  font-size: 20px;
-}
-
-.slide-horizon {
-  height: 1000px;
-}
-
-.certificate-horizon-pagination {
-  font-family: "Neue Machina";
-  font-size: 28px;
-  line-height: 1;
-  font-weight: 400;
-  bottom: 30px !important;
-  left: -45% !important;
-}
-
 .header {
   padding-top: 27px;
 }
@@ -284,9 +193,6 @@ button {
   color: rgba(255, 255, 255, 0.8);
 }
 
-.solution {
-  position: relative;
-}
 .solution__inner {
   padding: 94px 0 134px;
 }
@@ -306,6 +212,7 @@ button {
   max-width: 645px;
 }
 .solution__text {
+  font-family: "Neue Machina";
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: end;
@@ -362,11 +269,6 @@ button {
 .solution__arrow {
   margin-left: 20px;
   transition: all 0.3s ease;
-}
-.solution__gradient {
-  position: absolute;
-  top: -85px;
-  right: 0;
 }
 
 .design {
@@ -514,6 +416,7 @@ button {
 }
 
 .certificate {
+  position: relative;
   padding-top: 102px;
 }
 .certificate__title {
@@ -556,6 +459,220 @@ button {
   -ms-flex-pack: center;
       justify-content: center;
 }
+.certificate__gradient {
+  position: absolute;
+  top: -25px;
+  left: 219px;
+}
+
+.teams {
+  position: relative;
+  padding-top: 103px;
+}
+.teams__title {
+  font-family: "Neue Machina";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 0.9;
+  margin-bottom: 38px;
+}
+.teams__list {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  gap: 50px;
+}
+.teams__item:nth-child(even) {
+  margin-top: 47px;
+}
+.teams__box {
+  position: relative;
+}
+.teams__img {
+  margin-bottom: 10px;
+}
+.teams__name {
+  font-family: "Neue Machina";
+  font-size: 20px;
+  line-height: 1.3;
+  max-width: 270px;
+}
+.teams__job {
+  position: absolute;
+  top: 85px;
+  right: -105px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.teams__pagination {
+  font-family: "Neue Machina";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  left: -45%;
+}
+.teams__gradient {
+  position: absolute;
+  top: -25px;
+  left: 0;
+}
+
+.reviews {
+  padding: 101px;
+}
+.reviews__title {
+  font-size: 48px;
+  line-height: 0.95;
+  margin-bottom: 47px;
+}
+.reviews__box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+.reviews__pic {
+  padding: 8px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+.reviews__pic img {
+  height: 100%;
+}
+.reviews__content {
+  padding: 58px 45px 47px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+.reviews__name {
+  font-family: "Neue Machina";
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.27;
+  letter-spacing: 3%;
+  margin-bottom: 6px;
+}
+.reviews__activity {
+  color: rgba(255, 255, 255, 0.4);
+  max-width: 296px;
+  margin-bottom: 19px;
+}
+.reviews__text {
+  max-width: 540px;
+  margin-bottom: 100px;
+}
+
+.swiper {
+  max-width: 1546px;
+  width: 100%;
+  max-height: 860px;
+  height: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.swiper-wrapper {
+  max-width: 1413px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.swiper-slide {
+  height: 100%;
+}
+
+.swiper-pagination-bullet {
+  width: 4px;
+  height: 4px;
+  background-color: #fff;
+  opacity: 1;
+  margin-bottom: 18px !important;
+}
+
+.swiper-pagination-bullet-active {
+  width: 4px;
+  height: 38px;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.swiper-vertical-pagination {
+  right: 99% !important;
+}
+
+.swiper-vertical-button-next {
+  left: 10px;
+  top: 90%;
+  width: 12px !important;
+  height: 56px !important;
+  background-color: #fff !important;
+  opacity: 1;
+  border-radius: 6px;
+}
+.swiper-vertical-button-next::after {
+  display: none;
+}
+
+.swiper-horizon-button-prev {
+  left: 89.2% !important;
+  top: 92% !important;
+  width: 72px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-top-left-radius: 67px;
+  border-bottom-left-radius: 67px;
+}
+.swiper-horizon-button-prev::after {
+  font-size: 20px;
+}
+
+.swiper-horizon-button-next {
+  top: 92% !important;
+  width: 72px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  border-top-right-radius: 67px;
+  border-bottom-right-radius: 67px;
+}
+.swiper-horizon-button-next::after {
+  font-size: 20px;
+}
+
+.slide-horizon {
+  height: 1000px;
+}
+
+.certificate-horizon-pagination {
+  font-family: "Neue Machina";
+  font-size: 28px;
+  line-height: 1;
+  font-weight: 400;
+  bottom: 30px !important;
+  left: -45% !important;
+}
+
 .certificate-swiper {
   max-height: 630px !important;
+}
+
+.teams-swiper {
+  max-height: 630px !important;
+}
+
+.slide-swiper {
+  height: 80vh;
+}
+
+.reviews-swiper {
+  max-height: 630px !important;
+}
+
+.reviews__pagination {
+  font-family: "Neue Machina";
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 1;
+  left: -45%;
 }

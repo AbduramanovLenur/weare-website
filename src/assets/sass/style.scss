@@ -36,87 +36,6 @@ button {
     padding-left: 15px;
     padding-right: 15px;
 }
-.swiper {
-    max-width: 1546px;
-    width: 100%;
-    max-height: 860px;
-    height: 100%;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.swiper-wrapper {
-    max-width: 1413px;
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-.swiper-slide {
-    height: 100%;
-}
-.swiper-pagination-bullet {
-    width: 4px;
-    height: 4px;
-    background-color: #fff;
-    opacity: 1;
-    margin-bottom: 18px !important;
-}
-.swiper-pagination-bullet-active {
-    width: 4px;
-    height: 38px;
-    border-radius: 3px;
-    background-color: #fff;
-}
-.swiper-vertical-pagination {
-    right: 97% !important;
-}
-.swiper-vertical-button-next {
-    left: 10px;
-    top: 90%;
-    width: 12px !important;
-    height: 56px !important;
-    background-color: #fff !important;
-    opacity: 1;
-    border-radius: 6px;
-    &::after {
-        display: none;
-    }
-}
-.swiper-horizon-button-prev {
-    left: 89.2% !important;
-    top: 92% !important;
-    width: 72px !important;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    border-top-left-radius: 67px;
-    border-bottom-left-radius: 67px;
-    &::after {
-        font-size: 20px;
-    }
-}
-.swiper-horizon-button-next {
-    top: 92% !important;
-    width: 72px !important;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
-    border-top-right-radius: 67px;
-    border-bottom-right-radius: 67px;
-    &::after {
-        font-size: 20px;
-    }
-}
-.slide-horizon {
-    height: 1000px;
-}
-.certificate-horizon-pagination {
-    font-family: 'Neue Machina';
-    font-size: 28px;
-    line-height: 1;
-    font-weight: 400;
-    bottom: 30px !important;
-    left: -45% !important;
-
-}
 
 @import "blocks/header";
 @import "blocks/screen-1";
@@ -125,3 +44,6 @@ button {
 @import "blocks/screen-4";
 @import "blocks/screen-5";
 @import "blocks/screen-6";
+@import "blocks/screen-7";
+@import "blocks/screen-8";
+@import "blocks/swiper";

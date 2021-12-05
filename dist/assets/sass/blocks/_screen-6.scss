@@ -1,4 +1,5 @@
 .certificate {
+    position: relative;
     padding-top: 102px;
     &__title {
         font-family: "Neue Machina";
@@ -35,7 +36,9 @@
         display: flex;
         justify-content: center;
     }
-    &-swiper {
-        max-height: 630px !important;
+    &__gradient {
+        position: absolute;
+        top: -25px;
+        left: 219px;
     }
 }

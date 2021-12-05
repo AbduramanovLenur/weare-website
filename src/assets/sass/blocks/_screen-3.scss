@@ -1,5 +1,4 @@
 .solution {
-    position: relative;
     &__inner {
         padding: 94px 0 134px;
     }
@@ -16,6 +15,7 @@
         max-width: 645px;
     }
     &__text {
+        font-family: "Neue Machina";
         display: flex;
         align-items: flex-end;
         font-size: 16px;
@@ -63,10 +63,5 @@
     &__arrow {
         margin-left: 20px;
         transition: all .3s ease;
-    }
-    &__gradient {
-        position: absolute;
-        top: -85px;
-        right: 0;
     }
 }

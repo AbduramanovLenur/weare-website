@@ -1963,7 +1963,10 @@ var swiperSliderHorizon = function swiperSliderHorizon(selectorSlider, selectorB
       }
     },
     spaceBetween: 40,
-    loop: true
+    loop: true // autoplay: {
+    //     delay: 5000,
+    // },
+
   });
 };
 
