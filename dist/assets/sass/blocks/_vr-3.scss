@@ -1,0 +1,50 @@
+.vr-3 {
+    &__inner {
+        position: relative;
+    }
+    &__title {
+        font-family: "Neue Machina";
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 1.09;
+        text-align: center;
+        margin-top: 96px;
+        margin-bottom: 44px;
+        text-transform: uppercase;
+    }
+    &__list {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 60px;
+    }
+    &__box {
+        position: relative;
+    }
+    &__num {
+        font-family: "Neue Machina";
+        font-size: 22px;
+        font-weight: 700;
+        line-height: 1.31;
+        position: absolute;
+        top: 38px;
+        left: 38px;
+    }
+    &__text {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 1.15;
+        position: absolute;
+        top: 238px;
+        left: 38px;
+    }
+    &__btns {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__gradient {
+        position: absolute;
+        top: -85%;
+        left: 0;
+        z-index: -6;
+    }
+}
