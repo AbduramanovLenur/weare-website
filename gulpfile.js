@@ -10,10 +10,11 @@ const del = require('del');
 const runSequence = require('run-sequence');
 const autoprefixer = require('gulp-autoprefixer');
 
-const dist = "./dist";
+// const dist = "C:/OpenServer/domains/project-4";
+const dist = 'dist/';
 
 gulp.task("copy-html", () => {
-  return gulp.src("./src/index.html")
+  return gulp.src("./src/*.html")
     .pipe(gulp.dest(dist))
     .pipe(browsersync.stream());
 });
@@ -83,7 +84,7 @@ gulp.task("watch", () => {
     notify: true
   });
 
-  gulp.watch("./src/index.html", gulp.parallel("copy-html"));
+  gulp.watch("./src/*.html", gulp.parallel("copy-html"));
   gulp.watch("./src/js/**/*.js", gulp.parallel("build-js"));
   gulp.watch("./src/assets/**/*.*", gulp.parallel("copy-assets"));
   gulp.watch("./src/assets/sass/**/*.scss", gulp.parallel("build-sass"));

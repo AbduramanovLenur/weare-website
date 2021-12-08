@@ -1,0 +1,38 @@
+.vr-2 {
+    &__title {
+        font-family: "Neue Machina";
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 1.09;
+        margin-top: 97px;
+        margin-bottom: 55px;
+    }
+    &__list {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    &__item {
+        max-width: 326px;
+        margin-bottom: 40px;
+    }
+    &__ico {
+        margin-bottom: 14px;
+    }
+    &__subtitle {
+        font-family: "Neue Machina";
+        font-size: 19px;
+        font-weight: 700;
+        margin-bottom: 6px;
+        line-height: 1.31;
+    }
+    &__text {
+        font-size: 14px;
+        line-height: 1.28;
+    }
+    &__btn {
+        &-prev {
+            margin-right: 30px;
+        }
+    }
+}

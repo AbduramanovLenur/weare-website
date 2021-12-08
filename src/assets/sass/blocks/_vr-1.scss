@@ -1,0 +1,38 @@
+.vr-1 {
+    &__inner {
+        position: relative;
+    }
+    &__title {
+        margin-top: 20%;
+        font-family: "Neue Machina";
+        font-size: 71px;
+        line-height: 1;
+        margin-bottom: 45px;
+    }
+    &__text {
+        max-width: 600px;
+        letter-spacing: 4%;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.8);
+    }
+    &__btn {
+        &-prev {
+            position: absolute;
+            top: -70%;
+            left: -5%;
+        }
+        &-next {
+            position: absolute;
+            top: 140%;
+            left: -5%;
+        }
+    }
+}
+
+.wrapper-image {
+    height: 100vh;
+    background-image: url(../img/vr-page/vr.png);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+}

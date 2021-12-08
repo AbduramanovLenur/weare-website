@@ -28,6 +28,7 @@
     &__subtext {
         display: flex;
         p {
+            text-transform: uppercase;
             position: relative;
             padding-left: 8px;
             &:not(:last-child) {

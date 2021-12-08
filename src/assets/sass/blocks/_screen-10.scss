@@ -87,6 +87,9 @@
             background-color: rgba(#5E1EC6, 0.6);
         }
     }
+    &__pic {
+        order: 2;
+    }
     &__img {
         margin-top: -20%;
     }
@@ -96,4 +99,8 @@
         left: 0;
         z-index: -5;
     }
+}
+
+.status {
+    order: 1;
 }

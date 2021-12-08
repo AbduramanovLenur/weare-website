@@ -36,7 +36,20 @@ button {
     padding-left: 15px;
     padding-right: 15px;
 }
+.container-page {
+    max-width: 1297px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.vr-btn {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 67px;
+    padding: 25px 19px;
+}
 
+@import "blocks/swiper";
+@import "blocks/animate";
 @import "blocks/header";
 @import "blocks/screen-1";
 @import "blocks/screen-2";
@@ -48,4 +61,5 @@ button {
 @import "blocks/screen-8";
 @import "blocks/screen-9";
 @import "blocks/screen-10";
-@import "blocks/swiper";
+@import "blocks/vr-1";
+@import "blocks/vr-2";
