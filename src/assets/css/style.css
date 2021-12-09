@@ -959,6 +959,14 @@ button {
   left: 0;
   z-index: -5;
 }
+.project__linear {
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  z-index: -10;
+}
 
 .status {
   -ms-flex-order: 1;
@@ -969,11 +977,13 @@ button {
   position: relative;
 }
 .vr-1__title {
-  margin-top: 20%;
   font-family: "Neue Machina";
   font-size: 71px;
+  font-weight: 400;
   line-height: 1;
   margin-bottom: 45px;
+  margin-top: 20%;
+  text-transform: uppercase;
 }
 .vr-1__text {
   max-width: 600px;
@@ -1000,12 +1010,14 @@ button {
   background-size: contain;
 }
 
+.vr-2__inner {
+  padding-top: 97px;
+}
 .vr-2__title {
   font-family: "Neue Machina";
   font-size: 52px;
   font-weight: 400;
   line-height: 1.09;
-  margin-top: 97px;
   margin-bottom: 55px;
 }
 .vr-2__list {
@@ -1040,6 +1052,7 @@ button {
 
 .vr-3__inner {
   position: relative;
+  padding-top: 96px;
 }
 .vr-3__title {
   font-family: "Neue Machina";
@@ -1047,7 +1060,6 @@ button {
   font-weight: 400;
   line-height: 1.09;
   text-align: center;
-  margin-top: 96px;
   margin-bottom: 44px;
   text-transform: uppercase;
 }
@@ -1162,4 +1174,41 @@ button {
 }
 .vr-4__btn:hover {
   background-color: rgba(30, 79, 198, 0.7);
+}
+
+.vr-page-1__inner {
+  position: relative;
+}
+.vr-page-1__title {
+  font-family: "Neue Machina";
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 1.09;
+  max-width: 760px;
+  margin-bottom: 36px;
+  text-transform: uppercase;
+  margin-top: 235px;
+}
+.vr-page-1__box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.vr-page-1__text {
+  max-width: 528px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.8);
+}
+.vr-page-1__btn-prev {
+  position: absolute;
+  top: -70%;
+  left: -5%;
+}
+.vr-page-1__btn-next {
+  position: absolute;
+  top: 140%;
+  left: -5%;
 }

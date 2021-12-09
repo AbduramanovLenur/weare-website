@@ -99,6 +99,13 @@
         left: 0;
         z-index: -5;
     }
+    &__linear {
+        object-fit: contain;
+        position: absolute;
+        top: 20%;
+        left: 0;
+        z-index: -10;
+    }
 }
 
 .status {

@@ -1,10 +1,12 @@
 .vr-2 {
+    &__inner {
+        padding-top: 97px;
+    }
     &__title {
         font-family: "Neue Machina";
         font-size: 52px;
         font-weight: 400;
         line-height: 1.09;
-        margin-top: 97px;
         margin-bottom: 55px;
     }
     &__list {
