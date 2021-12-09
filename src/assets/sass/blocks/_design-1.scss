@@ -1,0 +1,38 @@
+.design-1 {
+    &__inner {
+        position: relative;
+        padding-top: 100px;
+        height: 100%;
+    }
+    &__box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 100px;
+    }
+    &__title {
+        font-family: "Neue Machina";
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 1.09;
+        text-transform: uppercase;
+        margin-bottom: 30px;
+        max-width: 808px;
+    }
+    &__text {
+        letter-spacing: 4%;
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.8);
+        max-width: 508px;
+    }
+    &__btns {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -5;
+    }
+}
