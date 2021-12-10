@@ -1369,3 +1369,68 @@ button {
   left: 0;
   z-index: -6;
 }
+
+.design-3__inner {
+  padding-top: 60px;
+}
+.design-3__title {
+  font-family: "Neue Machina";
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 1.09;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  max-width: 598px;
+}
+.design-3__box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  gap: 40px;
+}
+.design-3__pic {
+  position: relative;
+}
+.design-3__img:hover + .design-3__text {
+  opacity: 1;
+  visibility: visible;
+}
+.design-3__text {
+  opacity: 0;
+  visibility: hidden;
+  font-size: 14px;
+  line-height: 1;
+  color: #000032;
+  letter-spacing: 10%;
+  background-color: #fff;
+  border-radius: 50%;
+  width: 149px;
+  height: 149px;
+  text-align: center;
+  line-height: 149px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.design-3__text:hover {
+  opacity: 1;
+  visibility: visible;
+}
+.design-3__img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.design-3__btns {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
