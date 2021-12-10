@@ -1,0 +1,75 @@
+.news-1 {
+    color: #000;
+    &__intro {
+        position: relative;
+        background-image: url(../img/news/news-1.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100vh;
+        z-index: 3;
+    }
+    &__title {
+        font-family: "Neue Machina";
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 1.09;
+        text-transform: uppercase;
+        margin-bottom: 18px;
+        max-width: 845px;
+    }
+    &__subtitle {
+        font-size: 22px;
+        line-height: 1.31;
+        max-width: 669px;
+        margin-bottom: 70px;
+    }
+    &__content {
+        max-width: 756px;
+        margin: 0 auto;
+    }
+    &__text {
+        &-1 {
+            margin-bottom: 60px;
+        }
+        &-2 {
+            margin-bottom: 27px;
+        }
+    }
+    &__sub{
+        font-size: 22px;
+        line-height: 1.27;
+        max-width: 467px;
+        margin-bottom: 4px;
+    }
+    &__list {
+        margin-top: 20px;
+        margin-bottom: 60px;
+    }
+    &__item {
+        list-style-type: upper-roman;
+        list-style-position: inside;
+        margin-bottom: 10px;
+        &-text {
+            span {
+                font-weight: 700;
+            }
+        }
+    }
+    &__prev {
+        position: absolute;
+        top: 18%;
+        left: 11%;
+        z-index: 4;
+    }
+}
+.header-news {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 5;
+}
+.wrapper-news {
+    background-color: #fff;
+}
