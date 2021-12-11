@@ -15,6 +15,14 @@ body {
     color: #fff;
     background-color: #000032;
 }
+input {
+    &::placeholder {
+        font-family: "HelveticaNeueCyr";
+    }
+    &:focus {
+        outline: none;
+    }
+}
 a {
     font-size: inherit;
     font-weight: inherit;
@@ -75,3 +83,4 @@ button {
 @import "blocks/design-3";
 @import "blocks/design-4";
 @import "blocks/news";
+@import "blocks/consultation";

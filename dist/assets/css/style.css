@@ -17,6 +17,29 @@ body {
   background-color: #000032;
 }
 
+input::-webkit-input-placeholder {
+  font-family: "HelveticaNeueCyr";
+}
+
+input::-moz-placeholder {
+  font-family: "HelveticaNeueCyr";
+}
+
+input:-ms-input-placeholder {
+  font-family: "HelveticaNeueCyr";
+}
+
+input::-ms-input-placeholder {
+  font-family: "HelveticaNeueCyr";
+}
+
+input::placeholder {
+  font-family: "HelveticaNeueCyr";
+}
+input:focus {
+  outline: none;
+}
+
 a {
   font-size: inherit;
   font-weight: inherit;
@@ -1614,4 +1637,105 @@ button {
 
 .title-width {
   max-width: 502px;
+}
+
+.consultation {
+  padding-top: 115px;
+  padding-bottom: 38px;
+}
+.consultation-wrapper {
+  color: #000;
+  background-color: #fff;
+  height: 100vh;
+}
+.consultation-btn {
+  color: #000032;
+  border-color: #000032;
+  cursor: auto;
+}
+.consultation__title {
+  font-family: "Neue Machina";
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 1.09;
+  text-transform: uppercase;
+  color: #000032;
+  max-width: 591px;
+  margin-bottom: 20px;
+}
+.consultation__text {
+  max-width: 387px;
+  margin-bottom: 53px;
+}
+.consultation__form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 146px;
+}
+.consultation__input {
+  font-size: 14px;
+  line-height: 1.28;
+  color: #000032;
+  border: none;
+  padding: 15px;
+  margin-bottom: 47px;
+  border-bottom: 1px solid rgba(0, 0, 50, 0.4);
+}
+.consultation__input::-webkit-input-placeholder {
+  font-size: 14px;
+  line-height: 1.28;
+  color: #000032;
+}
+.consultation__input::-moz-placeholder {
+  font-size: 14px;
+  line-height: 1.28;
+  color: #000032;
+}
+.consultation__input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 1.28;
+  color: #000032;
+}
+.consultation__input::-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 1.28;
+  color: #000032;
+}
+.consultation__input::placeholder {
+  font-size: 14px;
+  line-height: 1.28;
+  color: #000032;
+}
+.consultation__checkbox {
+  margin-right: 15px;
+}
+.consultation__textarea {
+  width: 100%;
+}
+.consultation-width {
+  max-width: 270px;
+  width: 100%;
+}
+.consultation__btn {
+  font-size: 14px;
+  line-height: 1;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #fff;
+  padding: 22px 38px;
+  background-color: #1e4fc6;
+  border-radius: 67px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.consultation__btn:hover {
+  opacity: 0.8;
+}
+.consultation__text-fot {
+  color: #000032;
 }

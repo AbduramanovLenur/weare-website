@@ -1,0 +1,77 @@
+.consultation {
+    padding-top: 115px;
+    padding-bottom: 38px;
+    &-wrapper {
+        color: #000;
+        background-color: #fff;
+        height: 100vh;
+    }
+    &-btn {
+        color: #000032;
+        border-color: #000032;
+        cursor: auto;
+    }
+    &__title {
+        font-family: "Neue Machina";
+        font-size: 52px;
+        font-weight: 400;
+        line-height: 1.09;
+        text-transform: uppercase;
+        color: #000032;
+        max-width: 591px;
+        margin-bottom: 20px;
+    }
+    &__text {
+        max-width: 387px;
+        margin-bottom: 53px;
+    }
+    &__form {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        padding-bottom: 146px;
+    }
+    &__input {
+        font-size: 14px;
+        line-height: 1.28;
+        color: #000032;
+        border: none;
+        padding: 15px;
+        margin-bottom: 47px;
+        border-bottom: 1px solid rgba(0, 0, 50, 0.4);
+        &::placeholder {
+            font-size: 14px;
+            line-height: 1.28;
+            color: #000032;
+        }
+    }
+    &__checkbox {
+        margin-right: 15px;
+    }
+    &__textarea {
+        width: 100%;
+    }
+    &-width {
+        max-width: 270px;
+        width: 100%;
+    }
+    &__btn {
+        font-size: 14px;
+        line-height: 1;
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        color: #fff;
+        padding: 22px 38px;
+        background-color: #1e4fc6;
+        border-radius: 67px;
+        border: none;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        &:hover {
+            opacity: 0.8;
+        }
+    }
+    &__text-fot {
+        color: #000032;
+    }
+}
