@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   font-family: "HelveticaNeueCyr";
   font-size: 17px;
@@ -1490,6 +1494,12 @@ button {
   height: 100vh;
   z-index: 3;
 }
+.news-1__inner {
+  padding-bottom: 40px;
+}
+.news-1__system {
+  margin-bottom: 152px;
+}
 .news-1__title {
   font-family: "Neue Machina";
   font-size: 52px;
@@ -1497,7 +1507,6 @@ button {
   line-height: 1.09;
   text-transform: uppercase;
   margin-bottom: 18px;
-  max-width: 845px;
 }
 .news-1__subtitle {
   font-size: 22px;
@@ -1533,6 +1542,39 @@ button {
 .news-1__item-text span {
   font-weight: 700;
 }
+.news-1__subtext {
+  font-size: 14px;
+  line-height: 1.28;
+  color: rgba(0, 0, 50, 0.8);
+}
+.news-1__article {
+  margin-bottom: 158px;
+}
+.news-1__container-box {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+}
+.news-1__input {
+  color: #000032;
+  border-bottom: 1px solid rgba(0, 0, 50, 0.4);
+}
+.news-1__input::-webkit-input-placeholder {
+  color: #000032;
+}
+.news-1__input::-moz-placeholder {
+  color: #000032;
+}
+.news-1__input:-ms-input-placeholder {
+  color: #000032;
+}
+.news-1__input::-ms-input-placeholder {
+  color: #000032;
+}
+.news-1__input::placeholder {
+  color: #000032;
+}
 .news-1__prev {
   position: absolute;
   top: 18%;
@@ -1550,4 +1592,26 @@ button {
 
 .wrapper-news {
   background-color: #fff;
+}
+
+.margin-bottom {
+  padding-bottom: 35px;
+  margin-bottom: 43px;
+  border-bottom: 1px solid rgba(0, 0, 50, 0.2);
+}
+
+.color-black-1 {
+  color: #2b2b53;
+}
+
+.color-black-2 {
+  color: rgba(0, 0, 50, 0.6);
+}
+
+.bb {
+  border-bottom-color: #000;
+}
+
+.title-width {
+  max-width: 502px;
 }
