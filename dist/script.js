@@ -4325,6 +4325,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_modules_swiper_vertical__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../js/modules/swiper-vertical */ "./src/js/modules/swiper-vertical.js");
 /* harmony import */ var _js_modules_swiper_horizon__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../js/modules/swiper-horizon */ "./src/js/modules/swiper-horizon.js");
 /* harmony import */ var _modules_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/forms */ "./src/js/modules/forms.js");
+/* harmony import */ var _modules_burger__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/burger */ "./src/js/modules/burger.js");
+
 
 
 
@@ -4332,7 +4334,33 @@ document.addEventListener('DOMContentLoaded', function () {
   Object(_js_modules_swiper_vertical__WEBPACK_IMPORTED_MODULE_0__["default"])('.swiper-verical', '.swiper-vertical-button-next');
   Object(_js_modules_swiper_horizon__WEBPACK_IMPORTED_MODULE_1__["default"])('.swiper-horizon', '.swiper-horizon-button-next', '.swiper-horizon-button-prev');
   Object(_modules_forms__WEBPACK_IMPORTED_MODULE_2__["default"])();
+  var burgerToggle = document.querySelector('.burger-btn');
+  burgerToggle.addEventListener('click', function () {
+    burgerToggle.classList.toggle('active');
+  });
+  Object(_modules_burger__WEBPACK_IMPORTED_MODULE_3__["default"])('.burger-btn', '.hamburger');
 });
+
+/***/ }),
+
+/***/ "./src/js/modules/burger.js":
+/*!**********************************!*\
+  !*** ./src/js/modules/burger.js ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+var burger = function burger(selectorHamburgerBtn, selectorHamburger) {
+  var hamburgerBtn = document.querySelector(selectorHamburgerBtn);
+  var hamburger = document.querySelector(selectorHamburger);
+  hamburgerBtn.addEventListener('click', function () {
+    hamburger.classList.toggle('active-class');
+  });
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (burger);
 
 /***/ }),
 

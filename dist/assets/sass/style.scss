@@ -5,6 +5,7 @@
 }
 html {
     height: 100%;
+    scroll-behavior: smooth;
 }
 body {
     font-family: "HelveticaNeueCyr";
@@ -58,6 +59,47 @@ button {
     border-radius: 67px;
     padding: 25px 19px;
 }
+.burger-btn {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    overflow: hidden;
+    z-index: 5;
+    span {
+        position: absolute;
+        width: 36px;
+        height: 2px;
+        background-color: #fff;
+        border-radius: 4px;
+        transition: all 0.3s ease;
+        &:nth-child(2) {
+            transform: translateY(-10px);
+            width: 23px;
+            left: 19px;
+        }
+        &:nth-child(4) {
+            transform: translateY(10px);
+            width: 23px;
+            left: 19px;
+        }
+    }
+}
+.burger-btn.active span:nth-child(3) {
+    transform: translateX(60px);
+    transition: all 0.3s ease;
+}
+.burger-btn.active span:nth-child(2) {
+    width: 30px;
+    transform: translateY(0) rotate(45deg);
+    transition: all 0.3s ease;
+}
+.burger-btn.active span:nth-child(4) {
+    width: 30px;
+    transform: translateY(0) rotate(315deg);
+    transition: all 0.3s ease;
+}
 
 @import "blocks/swiper";
 @import "blocks/animate";
@@ -84,3 +126,4 @@ button {
 @import "blocks/design-4";
 @import "blocks/news";
 @import "blocks/consultation";
+@import "blocks/burger";

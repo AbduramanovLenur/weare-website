@@ -11,6 +11,9 @@
         border-color: #000032;
         cursor: auto;
     }
+    &__inner {
+        position: relative;
+    }
     &__title {
         font-family: "Neue Machina";
         font-size: 52px;
@@ -74,4 +77,14 @@
     &__text-fot {
         color: #000032;
     }
+    &__prev {
+        position: absolute;
+        top: -5%;
+        left: -10%;
+        border-color:rgba(0, 0, 50, 0.4);
+        cursor: pointer;
+    }
+}
+.black {
+    background-color: #000 !important;
 }
